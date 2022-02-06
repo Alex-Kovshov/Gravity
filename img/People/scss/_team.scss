@@ -1,0 +1,104 @@
+
+/* ----------Theam ------------------*/
+
+.section__title {
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	padding-top: 43px;
+    letter-spacing: 6px;
+}
+
+
+.team {
+    width: 100%;
+	max-width: 1440px;
+	height: 675px;
+    background-image: url("../img/team/specialty's-bg.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto;
+
+		&__inner {
+			width: 100%;
+			max-width: 1280px;
+			height: 475px;
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			padding-top: 0;
+		}
+
+		&__img {
+			width: 50%;
+			padding-left: 5px;
+			position: relative;
+		}
+
+		&__item {
+			width: 50%;
+        text-align: center;
+        padding-top: 158px;
+        position: relative;
+		}
+
+		&__title {
+			font-family: 'BannyRound', sans-serif;
+			font-size: 36px;
+			line-height: 1.3;
+			color: #fff;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+			margin-left: -4px;
+		}
+
+        &__title::after {
+			content: "";
+			position: absolute;
+			width: 64.19px;
+			height: 7px;
+			left: 284.58px;
+			top: 213px;
+			z-index: 4;
+	
+			background: #E8C300;
+			border-radius: 50px;
+		}
+
+		&__sabtitle {
+			font-family: 'Open-Sans', sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			font-weight: 800;
+			margin-bottom: 21px;
+			color: #fff;
+		}
+
+		&__text {
+			font-family: 'Open-Sans', sans-serif;
+			font-size: 14px;
+			line-height: 1.7;
+			font-weight: 400;
+			color: #fff;
+		}
+}
+.conteiner {
+}
+.team-img {
+
+		&__img {
+			position: absolute;
+			top: -9px;
+			left: 62px;
+			z-index: 10;
+		}
+
+		&__img2 {
+			position: absolute;
+			top: 54px;
+			left: -80px;
+			z-index: 11;
+		}
+}

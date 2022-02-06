@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    background-color: rgba(0, 91, 193, .6);
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+
+    
+   
+
+    &__menu {
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    &__logo {
+        position: absolute;
+        left: 40px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        margin-left: 40px;
+        cursor: pointer;
+        
+    }
+
+    &__logo-text {
+        font-family: "Titillium", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    &__list {
+        
+    }
+
+    &__link {
+        list-style: none;
+        
+    }
+
+    &__linked:hover {
+        color: rgb(223, 190, 190);
+        
+    }
+
+    &__linked {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: 600;
+        color: #fff;
+        transition: all .2s linear;
+    }
+}
+.container {
+}
